@@ -27,7 +27,7 @@ A brief description of what this project does and who it's for
 
 A brief description of what this project does and who it's for
 
-* "[Aprovado.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Aprovado.jpeg")
+* [Aprovado.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Aprovado.jpeg")
 * "[Estudaqui.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Estudaqui.jpeg")
 * "[Anki.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Anki.jpeg")
 * "[Estudez.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Estudez.jpeg")
