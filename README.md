@@ -28,24 +28,31 @@ A brief description of what this project does and who it's for
 A brief description of what this project does and who it's for
 
 * Aprovado
+
 ![Aprovado](https://github.com/mirndlazaro/o-revisor/blob/main/Aprovado.jpeg "Aprovado")
 
 * Estudaqui
+
 ![Estudaqui.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Estudaqui.jpeg "Estudaqui")
 
 * Anki
+
 ![Anki.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Anki.jpeg "Anki")
 
 * Estudez 
+
 ![Estudez.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Estudez.jpeg "Estudez")
 
 * Flashcads 
+
 ![Flashcards.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Flashcards.jpeg "Flashcards")
 
 * Quizlet 
+
 ![Quizlet.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Quizlet.jpeg "Quizlet")
 
 * Revisei
+
 ![Revisei.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Revisei.jpeg "Revisei")
 
 ## 🛎 Authors
