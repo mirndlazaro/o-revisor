@@ -29,13 +29,24 @@ A brief description of what this project does and who it's for
 
 * Aprovado
 ![Aprovado](https://github.com/mirndlazaro/o-revisor/blob/main/Aprovado.jpeg "Aprovado")
-* "[Estudaqui.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Estudaqui.jpeg")
-* "[Anki.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Anki.jpeg")
-* "[Estudez.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Estudez.jpeg")
-* "[Flashcards.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Flashcards.jpeg")
-* "[Quizlet.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Quizlet.jpeg")
-* "[Anki.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Anki.jpeg")
-* "[Revisei.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Revisei.jpeg")
+
+* Estudaqui
+![Estudaqui.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Estudaqui.jpeg "Estudaqui")
+
+* Anki
+![Anki.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Anki.jpeg "Anki")
+
+* Estudez 
+![Estudez.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Estudez.jpeg "Estudez")
+
+* Flashcads 
+![Flashcards.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Flashcards.jpeg "Flashcards")
+
+* Quizlet 
+![Quizlet.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Quizlet.jpeg "Quizlet")
+
+* Revisei
+![Revisei.jpeg](https://github.com/mirndlazaro/o-revisor/blob/main/Revisei.jpeg "Revisei")
 
 ## 🛎 Authors
 
