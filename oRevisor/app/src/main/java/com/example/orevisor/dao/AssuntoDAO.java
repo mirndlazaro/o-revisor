@@ -18,8 +18,8 @@ public class AssuntoDAO extends SQLiteOpenHelper {
     private final int VERSAO = 1;
 
 
-    public AssuntoDAO(Context context) {
-        super(context, DATABASE, null, VERSAO);
+    public AssuntoDAO (Context context) {
+        super(context, DATABASE, VERSAO);
     }
 
 

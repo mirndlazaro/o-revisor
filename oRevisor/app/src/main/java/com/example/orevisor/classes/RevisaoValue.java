@@ -8,8 +8,8 @@ public class RevisaoValue implements java.io.Serializable{
     private long idDisciplina;
     private long idAssunto;
     private String status;
-    private Date dataCadastro;
-    private Date ultimaRevisao;
+    private String dataCadastro;
+    private String ultimaRevisao;
     private int frequencia;
 
 
@@ -25,7 +25,7 @@ public class RevisaoValue implements java.io.Serializable{
         return id;
     }
 
-    public void setIdDisciplina(Long idDisciplina) {
+    public void setIdDisciplina(long idDisciplina) {
         this.idDisciplina = idDisciplina;
     }
 
@@ -53,19 +53,19 @@ public class RevisaoValue implements java.io.Serializable{
         this.status = status;
     }
 
-    public Date getDataCadastro() {
+    public String getDataCadastro() {
         return dataCadastro;
     }
 
-    public void setDataCadastro(Date dataCadastro) {
+    public void setDataCadastro(String dataCadastro) {
         this.dataCadastro = dataCadastro;
     }
 
-    public Date getUltimaRevisao() {
+    public String getUltimaRevisao() {
         return ultimaRevisao;
     }
 
-    public void setUltimaRevisao(Date ultimaRevisao) {
+    public void setUltimaRevisao(String ultimaRevisao) {
         this.ultimaRevisao = ultimaRevisao;
     }
 }
