@@ -1,15 +1,6 @@
 # 👨‍🔬 O revisor
-<h4 align="left"> 
-	🚧 Em construção...  🚧
-</h4>
 
-A brief description of what this project does and who it's for
-
-# 👨‍🔬 Concepções do projeto
-
-A brief description of what this project does and who it's for
-
-- [x] 
+Nosso aplicativo oRevisor, foi pensado em auxiliar estudantes e demais pessoas que procuram uma forma de revisar assuntos, sejam quais forem eles. Podendo definir os conteúdos/revisões através de Disciplinas e assuntos para uma melhor organização e entendimento do conteúdo inserido.
 
 ## 👨‍🎨 Storyboarding
 
@@ -24,8 +15,6 @@ A brief description of what this project does and who it's for
 ![Diagrama de caso de uso](https://github.com/mirndlazaro/o-revisor/blob/main/diagramas/DCU.png "Diagrama de caso de uso")
 
 ## 🎏 Aplicações correlatas
-
-A brief description of what this project does and who it's for
 
 * Aprovado
 
