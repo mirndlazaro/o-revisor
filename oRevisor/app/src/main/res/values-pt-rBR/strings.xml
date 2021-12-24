@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">O Revisor</string>
+    <string name="title_subject">Disciplina</string>
+    <string name="title_theme">Assunto</string>
+    <string name="status_concluido">Concluída</string>
+    <string name="status_atrasado">Atrasada</string>
+    <string name="status_agendado">Agendada</string>
+</resources>
