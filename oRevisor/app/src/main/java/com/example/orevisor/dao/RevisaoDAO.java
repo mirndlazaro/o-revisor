@@ -35,14 +35,24 @@ public class RevisaoDAO extends SQLiteOpenHelper {
 
     public void salvar(RevisaoValue revisaoValue) {
         ContentValues values = new ContentValues();
-        values.put("nome", revisaoValue.getNome());
+        values.put("idDisciplina", revisaoValue.getIdDisciplina());
+        values.put("idAssunto", revisaoValue.getIdAssunto());
+        values.put("status", revisaoValue.getStatus());
+        values.put("dataCadastro", revisaoValue.getDataCadastro());
+        values.put("ultimaRevisao", revisaoValue.getUltimaRevisao());
+        values.put("frequencia", revisaoValue.getFrequencia());
 
         getWritableDatabase().insert("Disciplina", null, values);
     }
 
     public void alterar(RevisaoValue revisaoValue) {
         ContentValues values = new ContentValues();
-        values.put("nome", revisaoValue.getNome());
+        values.put("idDisciplina", revisaoValue.getIdDisciplina());
+        values.put("idAssunto", revisaoValue.getIdAssunto());
+        values.put("status", revisaoValue.getStatus());
+        values.put("dataCadastro", revisaoValue.getDataCadastro());
+        values.put("ultimaRevisao", revisaoValue.getUltimaRevisao());
+        values.put("frequencia", revisaoValue.getFrequencia());
 
         getWritableDatabase().update("Disciplina", values,
                 "id=?", new String[]{revisaoValue.getId().toString()});
@@ -65,8 +75,14 @@ public class RevisaoDAO extends SQLiteOpenHelper {
             do {
                 revisao = new RevisaoValue();
                 revisao.setId(Long.parseLong(cursor.getString(0)));
+                revisao.setIdDisciplina(Long.parseLong(cursor.getString(1)));
+                revisao.setIdAssunto(Long.parseLong(cursor.getString(2)));
+                revisao.setStatus(cursor.getString(3));
+                revisao.setDataCadastro(cursor.getString(4));
+                revisao.setUltimaRevisao(cursor.getString(5));
+                revisao.setFrequencia(Integer.parseInt(cursor.getString(6)));
 
-                revisao.setNome(cursor.getString(1));
+
                 revisoes.add(revisao);
             } while (cursor.moveToNext());
         }
