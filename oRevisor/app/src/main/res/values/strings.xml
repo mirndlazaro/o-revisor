@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">oRevisor</string>
+    <string name="app_name">O Revisor</string>
+
+    <string name="title_subject">Subject</string>
+    <string name="title_theme">Theme</string>
+
+    <string name="status_concluido">Concluded</string>
+    <string name="status_atrasado">Overdue</string>
+    <string name="status_agendado">Scheduled</string>
 </resources>
