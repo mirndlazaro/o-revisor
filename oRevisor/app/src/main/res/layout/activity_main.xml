@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:animateLayoutChanges="false"
+    android:animationCache="false"
+    android:background="#DAD4D4"
+    tools:context=".HomeActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="O revisor!"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layoutDirection="inherit"
+        android:linksClickable="false"
+        android:password="false"
+        android:phoneNumber="false"
+        android:scrollHorizontally="false"
+        android:text="Login"
+        app:iconTint="#D12424"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="338dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="105dp"
+        android:layout_height="115dp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

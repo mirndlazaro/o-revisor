@@ -10,11 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ORevisor">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".AddRevisaoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddAssuntoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddDisciplinaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CadastroActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
