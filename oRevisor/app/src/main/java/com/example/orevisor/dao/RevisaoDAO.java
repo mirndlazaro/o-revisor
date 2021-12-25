@@ -8,8 +8,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import com.example.orevisor.classes.RevisaoValue;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Locale;
 
 public class RevisaoDAO extends SQLiteOpenHelper {
 
@@ -22,7 +25,12 @@ public class RevisaoDAO extends SQLiteOpenHelper {
 
     public void onCreate(SQLiteDatabase db) {
         String ddl = "CREATE TABLE Revisao (id INTEGER PRIMARY KEY,"
-                + " nome TEXT UNIQUE NOT NULL);";
+                + " idDisciplina INTEGER NOT NULL,"
+                + " idAssunto INTEGER NOT NULL,"
+                + " status TEXT DEFAULT 'ATIVO',"
+                + " dataCadastro TEXT NOT NULL,"
+                + " ultimaRevisao TEXT,"
+                + " frequencia INTEGER NOT NULL);";
         db.execSQL(ddl);
     }
 
@@ -37,8 +45,8 @@ public class RevisaoDAO extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put("idDisciplina", revisaoValue.getIdDisciplina());
         values.put("idAssunto", revisaoValue.getIdAssunto());
-        values.put("status", revisaoValue.getStatus());
-        values.put("dataCadastro", revisaoValue.getDataCadastro());
+        values.put("status", "ATIVO");
+        values.put("dataCadastro", new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault()).format(new Date()));;
         values.put("ultimaRevisao", revisaoValue.getUltimaRevisao());
         values.put("frequencia", revisaoValue.getFrequencia());
 
@@ -81,7 +89,6 @@ public class RevisaoDAO extends SQLiteOpenHelper {
                 revisao.setDataCadastro(cursor.getString(4));
                 revisao.setUltimaRevisao(cursor.getString(5));
                 revisao.setFrequencia(Integer.parseInt(cursor.getString(6)));
-
 
                 revisoes.add(revisao);
             } while (cursor.moveToNext());

@@ -1,7 +1,5 @@
 package com.example.orevisor.classes;
 
-import java.util.Date;
-
 public class RevisaoValue implements java.io.Serializable{
 
     private long id;

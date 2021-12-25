@@ -3,9 +3,9 @@ package com.example.orevisor.classes;
 public class AssuntoValue implements java.io.Serializable{
 
     private long id;
+    private long idDisciplina;
     private String nome;
     private String descricao;
-    private long idDisciplina;
 
     public Long getId() {
         return id;

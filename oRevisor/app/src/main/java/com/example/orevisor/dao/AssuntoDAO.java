@@ -14,19 +14,20 @@ import java.util.List;
 
 public class AssuntoDAO extends SQLiteOpenHelper {
 
-    private final String DATABASE = "Revisor";
-    private final int VERSAO = 1;
+    private static final String DATABASE = "Revisor";
+    private static final int VERSAO = 1;
 
 
     public AssuntoDAO (Context context) {
-        super(context, DATABASE, VERSAO);
+        super(context, DATABASE, null, VERSAO);
     }
-
 
     @Override
     public void onCreate(SQLiteDatabase db) {
         String ddl = "CREATE TABLE Assunto (id INTEGER PRIMARY KEY,"
-                + " nome TEXT UNIQUE NOT NULL);";
+                + " idDisciplina INTEGER NOT NULL,"
+                + " nome TEXT UNIQUE NOT NULL,"
+                + " descricao TEXT);";
         db.execSQL(ddl);
     }
 
@@ -39,14 +40,18 @@ public class AssuntoDAO extends SQLiteOpenHelper {
 
     public void salvar(AssuntoValue assuntoValue) {
         ContentValues values = new ContentValues();
+        values.put("idDisciplina", assuntoValue.getIdDisciplina());
         values.put("nome", assuntoValue.getNome());
+        values.put("descricao", assuntoValue.getDescricao());
 
         getWritableDatabase().insert("Assunto", null, values);
     }
 
     public void alterar(AssuntoValue assuntoValue) {
         ContentValues values = new ContentValues();
+        values.put("idDisciplina", assuntoValue.getIdDisciplina());
         values.put("nome", assuntoValue.getNome());
+        values.put("descricao", assuntoValue.getDescricao());
 
         getWritableDatabase().update("Assunto", values,
                 "id=?", new String[]{assuntoValue.getId().toString()});
@@ -69,7 +74,10 @@ public class AssuntoDAO extends SQLiteOpenHelper {
             do {
                 assunto = new AssuntoValue();
                 assunto.setId(Long.parseLong(cursor.getString(0)));
-                assunto.setNome(cursor.getString(1));
+                assunto.setIdDisciplina(Long.valueOf(cursor.getString(1)));
+                assunto.setNome(cursor.getString(2));
+                assunto.setDescricao(cursor.getString(3));
+
                 assuntos.add(assunto);
             } while (cursor.moveToNext());
         }
