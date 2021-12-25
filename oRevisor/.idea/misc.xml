@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/leo97/Documents/Coding/o-revisor/oRevisor/app/src/main/res/layout/activity_disciplina.xml" value="0.33" />
-        <entry key="..\:/Users/leo97/Documents/Coding/o-revisor/oRevisor/app/src/main/res/layout/disciplina_list.xml" value="0.25" />
-        <entry key="..\:/Users/leo97/Documents/Coding/o-revisor/oRevisor/app/src/main/res/layout/disciplina_view.xml" value="0.22" />
+        <entry key="..\:/Workspaces/Faculdade/Android/o-revisor/oRevisor/app/src/main/res/layout/activity_cadastro.xml" value="0.21875" />
+        <entry key="..\:/Workspaces/Faculdade/Android/o-revisor/oRevisor/app/src/main/res/layout/activity_login.xml" value="0.21875" />
+        <entry key="..\:/Workspaces/Faculdade/Android/o-revisor/oRevisor/app/src/main/res/layout/activity_splash.xml" value="0.21875" />
       </map>
     </option>
   </component>
