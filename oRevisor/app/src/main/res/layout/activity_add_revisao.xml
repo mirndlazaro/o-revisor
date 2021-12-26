@@ -4,6 +4,132 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddRevisaoActivity">
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddDisciplinaActivity">
+
+
+    <TextView
+        android:id="@+id/titulo_nova_revisao"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/orange_200"
+        android:text="@string/new_revisao"
+        android:textAlignment="center"
+        android:textColor="@color/blueDark_500"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/disciplina"
+        android:textColor="@color/blueDark_700"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lista_disciplina"
+        app:layout_constraintStart_toStartOf="@+id/lista_disciplina" />
+
+    <Spinner
+        android:id="@+id/lista_disciplina"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/escolher_disciplina"
+        android:textColor="@color/blueDark_200"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_nova_revisao" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/assunto"
+        android:textColor="@color/blueDark_700"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lista_assunto"
+        app:layout_constraintStart_toStartOf="@+id/lista_assunto" />
+
+    <Spinner
+        android:id="@+id/lista_assunto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/escolher_disciplina"
+        android:textColor="@color/blueDark_200"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lista_disciplina" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/status"
+        android:textColor="@color/blueDark_700"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/status"
+        app:layout_constraintStart_toStartOf="@+id/status" />
+
+    <Spinner
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/escolher_disciplina"
+        android:textColor="@color/blueDark_200"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lista_assunto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/frequencia"
+        android:textColor="@color/blueDark_700"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/inserir_frequencia"
+        android:textColor="@color/blueDark_200"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/large_button"
+        android:text="@string/salvar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

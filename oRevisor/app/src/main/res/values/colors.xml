@@ -16,6 +16,8 @@
     <color name="redToast">#CF2D2D</color>
     <color name="grayToast">#838588</color>
 
+    <color name="teal_200">#80CBC4</color>
+
     <color name="white">#FFFFFFFF</color>
 </resources>
 

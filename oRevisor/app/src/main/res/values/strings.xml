@@ -1,10 +1,28 @@
 <resources>
-    <string name="app_name">O Revisor</string>
+    <string name="app_name" translatable="false">O Revisor</string>
 
     <string name="title_subject">Subject</string>
     <string name="title_theme">Theme</string>
 
+    <string name="new_disciplina">New Subject</string>
+    <string name="new_assunto">New Theme</string>
+    <string name="new_revisao">New Review</string>
+
+    <string name="assunto">Theme</string>
+    <string name="escolher_assunto">Choose a theme</string>
+
+    <string name="disciplina">Subject</string>
+    <string name="escolher_disciplina">Choose a subject</string>
+
+    <string name="inserir_nome">Type the name</string>
+    <string name="salvar">Save</string>
+
+    <string name="frequencia">Frequency</string>
+
+    <string name="status">Status</string>
     <string name="status_concluido">Concluded</string>
     <string name="status_atrasado">Overdue</string>
     <string name="status_agendado">Scheduled</string>
+    <string name="inserir_frequencia">Type frequency</string>
+
 </resources>
