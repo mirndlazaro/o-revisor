@@ -38,5 +38,6 @@
     <string name="ConfirmaSenha">Reescreva a senha</string>
     <string name="buttonSignup">Cadastrar</string>
     <string name="cadastro_efetuado">Sign up successfully!</string>
+    <string name="app_name">O Revisor</string>
 
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">O Revisor</string>
+    <string name="app_name" translatable="false">The Revisor</string>
 
     <string name="new_disciplina">New Subject</string>
     <string name="new_assunto">New Theme</string>
@@ -40,5 +40,7 @@
     <string name="ConfirmaSenha">Confirm password</string>
     <string name="buttonSignup">Sign up</string>
     <string name="cadastro_efetuado">Sign up successfully!</string>
+    <string name="title_subject">Subject</string>
+    <string name="title_theme">Theme</string>
 
 </resources>

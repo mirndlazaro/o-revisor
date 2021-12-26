@@ -3,11 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/leo97/Documents/Coding/o-revisor/oRevisor/app/src/main/res/layout/activity_add_assunto.xml" value="0.22" />
-        <entry key="..\:/Users/leo97/Documents/Coding/o-revisor/oRevisor/app/src/main/res/layout/activity_add_disciplina.xml" value="0.22" />
-        <entry key="..\:/Users/leo97/Documents/Coding/o-revisor/oRevisor/app/src/main/res/layout/activity_add_revisao.xml" value="0.22" />
+        <entry key="..\:/Workspaces/Faculdade/Android/o-revisor/oRevisor/app/src/main/res/layout/activity_add_revisao.xml" value="0.2203125" />
         <entry key="..\:/Workspaces/Faculdade/Android/o-revisor/oRevisor/app/src/main/res/layout/activity_cadastro.xml" value="0.21875" />
-        <entry key="..\:/Workspaces/Faculdade/Android/o-revisor/oRevisor/app/src/main/res/layout/activity_login.xml" value="0.24208860759493672" />
+        <entry key="..\:/Workspaces/Faculdade/Android/o-revisor/oRevisor/app/src/main/res/layout/activity_login.xml" value="0.67" />
         <entry key="..\:/Workspaces/Faculdade/Android/o-revisor/oRevisor/app/src/main/res/layout/activity_main.xml" value="0.21875" />
         <entry key="..\:/Workspaces/Faculdade/Android/o-revisor/oRevisor/app/src/main/res/layout/activity_splash.xml" value="0.21875" />
       </map>
