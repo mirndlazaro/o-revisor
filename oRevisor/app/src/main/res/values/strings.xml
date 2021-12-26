@@ -1,28 +1,44 @@
 <resources>
     <string name="app_name" translatable="false">O Revisor</string>
 
-    <string name="title_subject">Subject</string>
-    <string name="title_theme">Theme</string>
-
     <string name="new_disciplina">New Subject</string>
     <string name="new_assunto">New Theme</string>
     <string name="new_revisao">New Review</string>
 
-    <string name="assunto">Theme</string>
-    <string name="escolher_assunto">Choose a theme</string>
-
     <string name="disciplina">Subject</string>
     <string name="escolher_disciplina">Choose a subject</string>
+
+    <string name="assunto">Theme</string>
+    <string name="escolher_assunto">Choose a theme</string>
 
     <string name="inserir_nome">Type the name</string>
     <string name="salvar">Save</string>
 
     <string name="frequencia">Frequency</string>
+    <string name="inserir_frequencia">Type a frequency</string>
 
     <string name="status">Status</string>
     <string name="status_concluido">Concluded</string>
     <string name="status_atrasado">Overdue</string>
     <string name="status_agendado">Scheduled</string>
-    <string name="inserir_frequencia">Type frequency</string>
+
+    // Login
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Password</string>
+    <string name="button">Let\'s review</string>
+    <string name="welcome_info">You came back!</string>
+    <string name="welcome_info2">Login to continue reviewing</string>
+
+    // Alert
+    <string name="login_efetuado">Login successfully</string>
+    <string name="login_incorreto">Incorrect email or password</string>
+
+    // Cadastro
+    <string name="cadastro">Still don\'t have an account? Register!</string>
+    <string name="nome">First name</string>
+    <string name="sobrenome">Last name</string>
+    <string name="ConfirmaSenha">Confirm password</string>
+    <string name="buttonSignup">Sign up</string>
+    <string name="cadastro_efetuado">Sign up successfully!</string>
 
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Password</string>
+    <string name="button">Let\'s review</string>
+    <string name="cadastro">Still don\'t have an account? Register!</string>
+    <string name="welcome_info">You came back!</string>
+    <string name="nome">First name</string>
+    <string name="sobrenome">Last name</string>
+    <string name="ConfirmaSenha">Rewrite password</string>
+    <string name="buttonSignup">Sign up</string>
+    <string name="cadastro_efetuado">Sign up successfully!</string>
+</resources>

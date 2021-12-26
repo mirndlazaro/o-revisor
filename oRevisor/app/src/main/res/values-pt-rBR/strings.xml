@@ -8,11 +8,11 @@
     <string name="new_assunto">Novo Assunto</string>
     <string name="new_revisao">Nova Revisão</string>
 
-    <string name="assunto">Assunto</string>
-    <string name="escolher_assunto">Esculha um assunto</string>
-
     <string name="disciplina">Disciplina</string>
     <string name="escolher_disciplina">Escolha uma disciplina</string>
+
+    <string name="assunto">Assunto</string>
+    <string name="escolher_assunto">Esculha um assunto</string>
 
     <string name="inserir_nome">Type the name</string>
     <string name="salvar">Salvar</string>
@@ -25,5 +25,18 @@
     <string name="status_atrasado">Atrasada</string>
     <string name="status_agendado">Agendada</string>
 
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="button">Vamos revisar</string>
+    <string name="login_efetuado">Login realizado com sucesso</string>
+    <string name="login_incorreto">E-mail ou senha incorretos</string>
+    <string name="cadastro">Ainda não tem conta? Cadastre-se!</string>
+    <string name="welcome_info">Você voltou!</string>
+    <string name="welcome_info2">Faça o login para continuar revisando</string>
+    <string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="ConfirmaSenha">Reescreva a senha</string>
+    <string name="buttonSignup">Cadastrar</string>
+    <string name="cadastro_efetuado">Sign up successfully!</string>
 
 </resources>
