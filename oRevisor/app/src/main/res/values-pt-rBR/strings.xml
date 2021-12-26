@@ -6,4 +6,17 @@
     <string name="status_concluido">Concluída</string>
     <string name="status_atrasado">Atrasada</string>
     <string name="status_agendado">Agendada</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="button">Vamos revisar</string>
+    <string name="login_efetuado">Login realizado com sucesso</string>
+    <string name="login_incorreto">E-mail ou senha incorretos</string>
+    <string name="cadastro">Ainda não tem conta? Cadastre-se!</string>
+    <string name="welcome_info">Você voltou!</string>
+    <string name="welcome_info2">Faça o login para continuar revisando</string>
+    <string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="ConfirmaSenha">Reescreva a senha</string>
+    <string name="buttonSignup">Cadastrar</string>
+    <string name="cadastro_efetuado">Sign up successfully!</string>
 </resources>

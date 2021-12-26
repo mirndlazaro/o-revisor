@@ -1,10 +1,30 @@
 <resources>
-    <string name="app_name">O Revisor</string>
+    <string name="app_name">The Revisor</string>
 
+    // Add revisão, disciplina e assunto
     <string name="title_subject">Subject</string>
     <string name="title_theme">Theme</string>
-
     <string name="status_concluido">Concluded</string>
     <string name="status_atrasado">Overdue</string>
     <string name="status_agendado">Scheduled</string>
+
+    // Login
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Password</string>
+    <string name="button">Let\'s review</string>
+    <string name="welcome_info">You came back!</string>
+    <string name="welcome_info2">Login to continue reviewing</string>
+
+    // Alert
+    <string name="login_efetuado">Login successfully</string>
+    <string name="login_incorreto">Incorrect email or password</string>
+
+    // Cadastro
+    <string name="cadastro">Still don\'t have an account? Register!</string>
+    <string name="nome">First name</string>
+    <string name="sobrenome">Last name</string>
+    <string name="ConfirmaSenha">Confirm password</string>
+    <string name="buttonSignup">Sign up</string>
+    <string name="cadastro_efetuado">Sign up successfully!</string>
+
 </resources>

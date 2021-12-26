@@ -21,7 +21,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent trocarDeTela = new Intent(SplashActivity.this, HomeActivity.class);
+                Intent trocarDeTela = new Intent(SplashActivity.this, LoginActivity.class);
                 startActivity(trocarDeTela);
                 finish();
             }
